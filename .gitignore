@@ -1,0 +1,26 @@
+# Environment configuration and secrets
+.env
+.env.*
+
+# Local database and SQLite sidecars
+backend/clinical.db
+backend/clinical.db-shm
+backend/clinical.db-wal
+backend/data/
+
+# Python environments and generated files
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Frontend dependencies and generated output
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/*.tsbuildinfo
+
+# Local deployment bundles and agent-only workspace instructions
+clinical-cockpit-deploy.zip
+AGENTS.md
+**/AGENTS.md
